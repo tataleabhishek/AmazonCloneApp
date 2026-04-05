@@ -1,5 +1,9 @@
 package com.repository;
 
-public interface AmzonRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.entity.Cloth;
+
+public interface AmzonRepo extends JpaRepository<Cloth, Integer>{
 
 }
