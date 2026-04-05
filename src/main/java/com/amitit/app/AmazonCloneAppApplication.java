@@ -8,6 +8,7 @@ public class AmazonCloneAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AmazonCloneAppApplication.class, args);
+//		Pradip
 	}
 
 }
